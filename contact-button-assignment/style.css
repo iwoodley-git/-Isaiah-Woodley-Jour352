@@ -1,0 +1,36 @@
+/*
+MY COLOR PALETTE
+Black - #363537
+Green - #0CCE6B
+Yellow - #DCED31
+Red - #EF2D56
+Orange - #ED7D3A
+*/
+
+body {
+    background-color: #DCED31;
+    text-align: center;
+}
+
+button {
+    background-color: #363537;
+    color:#EF2D56;
+    font-family:"Bebas Neue", sans-serif;
+    text-transform: uppercase;
+    letter-spacing:4px;
+    width: 200px;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+button:hover {
+    background-color: #ED7D3A;
+}
+
+h1 {
+    font-family: "Oswald", sans-serif;
+}
+
+h2 {
+    font-family: "Bebas Neue", sans-serif;
+}
