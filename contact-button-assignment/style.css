@@ -8,29 +8,42 @@ Orange - #ED7D3A
 */
 
 body {
-    background-color: #DCED31;
+    background-color: #dced31;
     text-align: center;
 }
 
 button {
     background-color: #363537;
-    color:#EF2D56;
-    font-family:"Bebas Neue", sans-serif;
+    color: #ef2d56;
+    font-family: "Bebas Neue", sans-serif;
     text-transform: uppercase;
-    letter-spacing:4px;
+    letter-spacing: 4px;
     width: 200px;
     padding: 10px;
     margin-top: 30px;
+    border: none;
 }
 
 button:hover {
-    background-color: #ED7D3A;
+    background-color: #ed7d3a;
+}
+
+.button5 {
+    border-radius: 50%;
 }
 
 h1 {
     font-family: "Oswald", sans-serif;
+    font-size: 50px;
+    font-weight: 2000;
+    text-transform: capitalize;
+    letter-spacing: 3px;
 }
 
 h2 {
     font-family: "Bebas Neue", sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    text-transform: capitalize;
+    letter-spacing: 3px;
 }
