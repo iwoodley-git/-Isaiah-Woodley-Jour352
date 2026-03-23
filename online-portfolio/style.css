@@ -40,3 +40,12 @@ button {
 .job {
     margin: 20px;
 }
+
+@media (min-width:576px)
+
+.nav{
+    justify-content: center;
+}
+
+
+
