@@ -5,39 +5,38 @@ Yellow - #DCED31
 Red - #EF2D56
 Orange - #ED7D3A */
 
-#topper{
-    background-color: #EF2D56;
+#topper {
+    background-color: #ef2d56;
 }
 
-#headshot{
-    width:100%;
+#headshot {
+    width: 100%;
     border-radius: 40px;
     border: 8px solid white;
-    margin:10px
+    margin: 10px;
 }
-
 
 h1 {
     font-family: "Yeseva One", serif;
     letter-spacing: 4px;
-    font-weight:bold;
+    font-weight: bold;
     text-transform: uppercase;
 }
 
-h2{
+h2 {
     font-family: "Yeseva One", serif;
 }
 
-h3{
+h3 {
     font-family: "Yeseva One", serif;
     font-weight: bold;
 }
 
-button{
+button {
     border-radius: 40px;
-     font-family: "Yeseva One", serif;
+    font-family: "Yeseva One", serif;
 }
 
-.job{
-    margin:20px
+.job {
+    margin: 20px;
 }
