@@ -5,6 +5,8 @@ Yellow - #DCED31
 Red - #EF2D56
 Orange - #ED7D3A */
 
+@media screen{
+
 #topper {
     background-color: #ef2d56;
 }
@@ -15,12 +17,17 @@ Orange - #ED7D3A */
     border: 8px solid white;
     margin: 10px;
 }
+    .fullwidth{
+        padding: px;
+    }
 
 h1 {
     font-family: "Yeseva One", serif;
     letter-spacing: 4px;
     font-weight: bold;
     text-transform: uppercase;
+    padding: 10px px px 20px;
+    font-size: 50px;
 }
 
 h2 {
@@ -37,15 +44,39 @@ button {
     font-family: "Yeseva One", serif;
 }
 
-.job {
-    margin: 20px;
+.job{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 3px solid #EF2D56
+}
+    .nav{
+        justify-content: center;
+        color:#ef2d56
+    }
+    .nav a {
+        color:#EF2D56;
+        text-decoration: none;    
+    }
+     .nav a:hover {
+        font-weight: bold;
+        border-bottom: 1px solid #363537;
+    }
 }
 
-@media (min-width:576px)
+@media (min-width: 576px) {
+    h1 {
+        font-size: 80px;
+    }
 
-.nav{
-    justify-content: center;
+    button {
+        width: 200px;
+    }
 }
 
+@media (min-width: 768px) {
+    h1 {
+        font-size: 100px;
+    }
+}
 
 
