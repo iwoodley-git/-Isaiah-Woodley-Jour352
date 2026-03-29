@@ -20,7 +20,19 @@ Orange - #ED7D3A */
     .fullwidth{
         padding: px;
     }
-
+    #experience{
+        color:white;
+        font-size: 30px;
+    }
+    
+    #skills{
+        color:white;
+        font-size: 30px;
+    }
+    #education{
+        color:white;
+        font-size: 30px;
+    }
 h1 {
     font-family: "Yeseva One", serif;
     letter-spacing: 4px;
@@ -28,10 +40,12 @@ h1 {
     text-transform: uppercase;
     padding: 10px px px 20px;
     font-size: 50px;
+    color: white;
 }
 
 h2 {
     font-family: "Yeseva One", serif;
+    color: white;
 }
 
 h3 {
@@ -42,20 +56,25 @@ h3 {
 button {
     border-radius: 40px;
     font-family: "Yeseva One", serif;
+    background-color: white;
 }
 
 .job{
     margin-bottom: 20px;
     padding-bottom: 20px;
-    border-bottom: 3px solid #EF2D56
+    border-bottom: 3px solid #EF2D56;
+    color:white;
 }
+    body{
+        background-color: #363537;
+    }
     .nav{
         justify-content: center;
-        color:#ef2d56
     }
     .nav a {
-        color:#EF2D56;
-        text-decoration: none;    
+        color:white;
+        text-decoration-color: #ef2d56; 
+         font-family: "Yeseva One", serif;
     }
      .nav a:hover {
         font-weight: bold;
